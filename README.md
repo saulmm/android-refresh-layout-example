@@ -65,7 +65,7 @@ You can put your swype layout color in your `colors.xml`
 
 after that you can configure your colors with the `setColorScheme()` method that receives 4 color references:
 
-```
+```java
         layout = (SwipeRefreshLayout) findViewById(R.id.swype);
 
         // Set the refresh swype color scheme
@@ -76,7 +76,7 @@ after that you can configure your colors with the `setColorScheme()` method that
 
 In the callback handler implemented a delay to add to a small waiting time to enjoy the animation of the widget, after the time it disables the refresh
 
-```
+```java
     @Override
     public void onRefresh() {
         // I create a handler to stop the refresh and show a message after 3s
