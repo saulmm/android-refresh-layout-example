@@ -53,7 +53,7 @@ public class MainActivity extends Activity implements SwipeRefreshLayout.OnRefre
 
 You can put your swype layout color in your `colors.xml`
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="swype_1">#ff92ff2f</color>
