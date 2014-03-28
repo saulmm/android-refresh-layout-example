@@ -7,7 +7,7 @@ This class allows easily add a _pull to refresh_ feature in your apps, similar t
 
 ![](https://googledrive.com/host/0B62SZ3WRM2R2WS1pRTN2aHpKR00)
 
-For this you have to add the latest version of the library in our `build.gradle`in case we are developing with [Android Studio](http://developer.android.com/sdk/installing/studio.html), this should be enough for us with this line :
+For this you have to add the latest version of the library in your `build.gradle` in case we are developing with [Android Studio](http://developer.android.com/sdk/installing/studio.html), this should be enough for us with this line :
 
 ```
     compile 'com.android.support:support-v4:19.1.0'
@@ -51,7 +51,7 @@ public class MainActivity extends Activity implements SwipeRefreshLayout.OnRefre
 ```
 
 
-To configure the colors we use the method that receives 4 x references to colors, in my case `colors.xml`
+You can put your swype layout color in your `colors.xml`
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -63,7 +63,7 @@ To configure the colors we use the method that receives 4 x references to colors
 </resources>
 ```
 
-after that you can configure your colors with the ``
+after that you can configure your colors with the `setColorScheme()` method that receives 4 color references:
 
 ```
         layout = (SwipeRefreshLayout) findViewById(R.id.swype);
