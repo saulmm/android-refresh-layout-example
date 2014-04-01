@@ -9,7 +9,7 @@ This class allows easily add a _pull to refresh_ feature in your apps, similar t
 
 For this you have to add the latest version of the library in your `build.gradle` in case we are developing with [Android Studio](http://developer.android.com/sdk/installing/studio.html), this should be enough for us with this line :
 
-If you have not already updated you have to update to the last version of the support library:
+If you have not already _updated_ the _support library_, remember that you can do that using the __sdk manager__
 
 ![](https://googledrive.com/host/0B62SZ3WRM2R2S3hUWmtZb1hnRkE)
 
